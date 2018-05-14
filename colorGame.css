@@ -1,0 +1,105 @@
+
+body{
+	background-color: #232323;
+	margin: 0px;
+	/*font-family: "Open Sans", "Montserrat", "Avenir";*/
+	/*font-family: 'Itim', cursive;*/
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+
+.square{
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float:left;
+	margin: 1.66%;
+	border-radius: 20%;
+	transition: background 2.0s;
+	cursor: pointer;
+	/*box-shadow: 0px 2px 5px rgba(150,150,150,0.4),
+		0px 5px 10px rgba(150,150,150,0.1),
+		0px 10px 15px rgba(150,150,150,0.1);*/
+}
+
+#container {
+	max-width: 600px;
+	margin: 30px auto;
+}
+
+h1 {
+	color:white;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding: 20px 0;
+	transition: background 1s, color 1s;
+	--webkit-transition: background 1s, color 1s;
+	--moz-transition: background 1s, color 1s;
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selectedLevel {
+	color: white;
+	background-color: steelblue;
+}
+
+#colorDisplay {
+	font-size: 150%;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+	color: steelblue;
+	background-color: white;
+	transition: color 1s;
+	--webkit-transition: color 1s;
+	--moz-transition: color 1s;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	outline: none;
+	--webkit-transition: all 0.3s;
+	--moz-transition: all 0.3s;
+}
+
+button:hover {
+	color: white;
+	background-color: steelblue;
+	cursor: pointer;
+}
+
+
+.transitions {
+    transition: background 1s, transform .5s; 
+	--webkit-transition: background 1s, transform .5s; 
+	--moz-transition: background 1s, transform .5s; 
+
+}
+
+.transitions:hover {
+    transform: scale(1.08); 
+	--webkit-transition: scale(1.05); 
+	--moz-transition: scale(1.05); 
+}
